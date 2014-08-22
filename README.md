@@ -40,8 +40,6 @@
 
 - The user can now configure the status of his Latch (on/off) and we consult it using the Get-Status command. This command uses the *ApplicationID*, *Secret* and the *AccountId* of the user whose status is to be checked. The server’s response contain’s a *Data* object that contains the requested operation’s status, or an *Error* object with a code and an error message.
 
-- There is more information available about Latch’s API in: [https://latch.elevenpaths.com/www/developers/doc_api](https://latch.elevenpaths.com/www/developers/doc_api).
-
 
 
 ###UNPAIRING A USER IN PowerShell
@@ -49,6 +47,10 @@ To unpair an user from our application execute the **Get-Unpair** command. You w
 
 
 ##RESOURCES
-- For basic information about the use of Latch read our step by step guide.
+- You can access Latch´s use and installation manuals, together with a list of all available plugins here: [https://latch.elevenpaths.com/www/developers/resources](https://latch.elevenpaths.com/www/developers/resources)
+
+- Further information on de Latch´s API can be found here: [https://latch.elevenpaths.com/www/developers/doc_api](https://latch.elevenpaths.com/www/developers/doc_api)
+
+- For more information about how to use Latch and testing more free features, please refer to the user guide in Spanish and English:
 	1. [English version](https://latch.elevenpaths.com/www/public/documents/howToUseLatchNevele_EN.pdf)
 	1. [Spanish version](https://latch.elevenpaths.com/www/public/documents/howToUseLatchNevele_ES.pdf)
